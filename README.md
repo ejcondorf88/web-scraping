@@ -11,7 +11,7 @@ Este proyecto contiene archivos y scripts para analizar información relacionada
 Antes de comenzar, asegúrate de tener lo siguiente:
 
 1. **Python instalado:** Necesitas tener Python instalado en tu computadora. Si no lo tienes, sigue las instrucciones a continuación.
-2. **Git instalado (opcional):** Si quieres clonar el repositorio, necesitas Git. Si no lo tienes, puedes descargar el proyecto como un archivo ZIP.
+2. **Git instalado (opcional):** Si quieres clonar el repositorio, necesitas Git. Si no lo tienes, puedes descargar el proyecto como un archivo ZIP desde [este enlace](https://github.com/ejcondorf88/web-scraping/archive/refs/heads/main.zip).
 
 ---
 
@@ -38,23 +38,33 @@ Antes de comenzar, asegúrate de tener lo siguiente:
 
 ---
 
-## Paso 2: Instalar las dependencias
+## Paso 2: Descargar el proyecto
+
+1. **Clonar el repositorio (opcional):**
+   - Si tienes Git instalado, abre una terminal y ejecuta:
+     ```bash
+     git clone https://github.com/ejcondorf88/web-scraping.git
+     ```
+   - Esto descargará el proyecto en tu computadora.
+
+2. **Descargar como archivo ZIP:**
+   - Si no tienes Git, puedes descargar el proyecto como un archivo ZIP desde [este enlace](https://github.com/ejcondorf88/web-scraping/archive/refs/heads/main.zip).
+   - Descomprime el archivo ZIP en una carpeta de tu computadora.
+
+---
+
+## Paso 3: Instalar las dependencias
 
 Este proyecto utiliza varias bibliotecas de Python, como **pdfplumber** para extraer información de archivos PDF. Para instalarlas, sigue estos pasos:
 
-1. **Descargar el proyecto:**
-   - Si tienes Git instalado, abre una terminal y ejecuta:
-     ```bash
-     git clone <URL_DEL_REPOSITORIO>
-     ```
-   - Si no tienes Git, descarga el proyecto como un archivo ZIP desde el repositorio y descomprímelo en una carpeta de tu computadora.
-
-2. **Instalar un entorno virtual (opcional pero recomendado):**
-   - Un entorno virtual es como una "caja separada" donde instalaremos todo lo necesario para el proyecto sin afectar el resto de tu computadora.
-   - En la terminal, navega hasta el directorio donde se encuentra el proyecto:
+1. **Navegar al directorio del proyecto:**
+   - Abre una terminal y navega hasta la carpeta donde descargaste el proyecto. Por ejemplo:
      ```bash
      cd ruta/del/proyecto
      ```
+
+2. **Instalar un entorno virtual (opcional pero recomendado):**
+   - Un entorno virtual es como una "caja separada" donde instalaremos todo lo necesario para el proyecto sin afectar el resto de tu computadora.
    - Crea un entorno virtual:
      ```bash
      python -m venv venv
@@ -78,7 +88,7 @@ Este proyecto utiliza varias bibliotecas de Python, como **pdfplumber** para ext
 
 ---
 
-## Paso 3: Configuración y ejecución de los scripts
+## Paso 4: Configuración y ejecución de los scripts
 
 Una vez que tengas todo instalado, puedes empezar a ejecutar los scripts de análisis. Sigue estos pasos:
 
@@ -114,3 +124,5 @@ Si tienes problemas o preguntas, no dudes en contactar al equipo del proyecto o 
 ---
 
 ¡Esperamos que disfrutes explorando este proyecto!
+
+Para más información, visita el repositorio oficial en GitHub: [https://github.com/ejcondorf88/web-scraping](https://github.com/ejcondorf88/web-scraping).
